@@ -24,5 +24,30 @@ namespace CS_ASP_012CheckBoxChallange
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            choiceLabel.Content = " ";
+            if (pencilRadioButton.IsChecked == true)
+            {
+                choiceLabel.Content = "Pencil, very classic choice";
+            }
+            else if (penRadioButton.IsChecked == true)
+            {
+                choiceLabel.Content = "Pen, a bit more modern";
+            }
+            else if (phoneRadioButton.IsChecked == true)
+            {
+                choiceLabel.Content = "Phone, aren't you special";
+            }
+            else if (padRadioButton.IsChecked == true)
+            {
+                choiceLabel.Content = "Pad, you're really special";
+            }
+            else
+            {
+                choiceLabel.Content = "Choose one silly!";
+            }
+        }
     }
 }
