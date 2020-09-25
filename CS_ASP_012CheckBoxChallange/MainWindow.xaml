@@ -8,6 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <Image x:Name="pencilImage" HorizontalAlignment="Left" Height="209" Margin="431,77,0,0" VerticalAlignment="Top" Width="216" Source="/pencil.png" Opacity="0"/>
+
+        <Image x:Name="phoneImage" HorizontalAlignment="Left" Height="209" Margin="438,77,0,0" VerticalAlignment="Top" Width="202" Source="/phone.png" Opacity="0"/>
+
+        <Image x:Name="padImage" HorizontalAlignment="Left" Height="202" Margin="431,77,0,0" VerticalAlignment="Top" Width="216" Source="/tablet.png" Opacity="0"/>
+
         <Border BorderThickness="1" BorderBrush="Black" Margin="36,29,510,53">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -24,10 +30,7 @@
         <RadioButton x:Name="padRadioButton" Content="Pad" HorizontalAlignment="Left" Margin="137,229,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="You chose: " HorizontalAlignment="Left" Margin="332,363,0,0" VerticalAlignment="Top" Width="87" FontSize="16"/>
         <Label x:Name="choiceLabel" Content=" " HorizontalAlignment="Left" Margin="424,363,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Image x:Name="penImage" HorizontalAlignment="Left" Height="209" Margin="431,77,0,0" VerticalAlignment="Top" Width="216" Source="/pen.png"/>
-        <Image x:Name="pencilImage" HorizontalAlignment="Left" Height="209" Margin="431,77,0,0" VerticalAlignment="Top" Width="216" Source="/pencil.png"/>
-        <Image x:Name="phoneImage" HorizontalAlignment="Left" Height="209" Margin="438,77,0,0" VerticalAlignment="Top" Width="202" Source="/phone.png"/>
-        <Image x:Name="padImage" HorizontalAlignment="Left" Height="202" Margin="424,77,0,0" VerticalAlignment="Top" Width="216" Source="/tablet.png"/>
+        <Image x:Name="penImage" HorizontalAlignment="Left" Height="209" Margin="431,77,0,0" VerticalAlignment="Top" Width="216" Source="/pen.png" Opacity="0"/>
 
     </Grid>
 </Window>
